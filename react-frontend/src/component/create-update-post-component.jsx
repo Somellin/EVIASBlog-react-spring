@@ -97,10 +97,10 @@ class CreateUpdatePostComponent extends Component {
                                   onChange={this.changeFullText}/>
                     </div>
 
-                    <div className="form-group">
-                        <label className="form-label fw-bold">Image</label>
-                        <input type="file" className="form-control-file"/>
-                    </div>
+                    {/*<div className="form-group">*/}
+                    {/*    <label className="form-label fw-bold">Image</label>*/}
+                    {/*    <input type="file" className="form-control-file"/>*/}
+                    {/*</div>*/}
 
                     <button type="submit" className="btn btn-primary mb-2"
                             style={{marginTop: "10px"}} onClick={this.savePost}>Save
